@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 '''
   The Linux packages jpegoptim and optipng are required to run this script.
+
+  This is a script to optimize images.
+  Example : python3 optage.py
 '''
  
 import os
