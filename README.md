@@ -6,4 +6,4 @@ A personal collection of scripts that I use and decided to shared with others wh
 
 ## Code Examples
 
-**opta.py** : Python script to optimize images using jpegoptim and optipng.
+**optage.py** : (Optimize/Image) Python script to optimize images using jpegoptim and optipng.
