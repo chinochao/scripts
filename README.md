@@ -6,4 +6,5 @@ A personal collection of scripts that I use and decided to shared with others wh
 
 ## Code Examples
 
+**s.py** : Python Auto SSH Log script used for SSO Logins.
 **optage.py** : (Optimize/Image) Python script to optimize images using jpegoptim and optipng.
