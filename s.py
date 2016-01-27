@@ -12,7 +12,7 @@ log_folder = s_folder + '/logs'
 s_conf = s_folder + '/.s.conf'
 
 try:
-  import pxssh
+  import pexpect.pxssh as pxssh
 except ImportError:
   print('Error: Cannot import Python module pxssh. Make sure module pexpect is installed.')
   sys.exit(1)
@@ -70,9 +70,11 @@ class Shell:
     self.log_file = log
 
   def ssh(self):
-    shell = pxssh.pxssh()
-    shell.SSH_OPTS += "StrictHostKeyChecking=no"
-    shell.login(self.host, self.user, self.password, auto_prompt_reset=False)                     
+    shell = pxssh.pxssh(options={
+                        "StrictHostKeyChecking": "no",
+                        "UserKnownHostsFile": "/dev/null"})
+    shell.force_password = True
+    shell.login(self.host, self.user, password=self.password, auto_prompt_reset=False, port=22)                     
     shell.setwinsize(24,350)
     shell.logfile = self.log_file
     shell.interact()
