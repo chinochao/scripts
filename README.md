@@ -2,7 +2,7 @@
 
 ## Synopsis
 
-THE A personal collection of scripts that I use and decided to shared with others which can find this useful.
+A personal collection of scripts that I use and decided to shared with others which can find this useful.
 
 ## Code Examples
 
