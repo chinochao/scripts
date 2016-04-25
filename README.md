@@ -8,3 +8,4 @@ A personal collection of scripts that I use and decided to shared with others wh
 
 **s.py** : Python Auto SSH script used for SSO logins with log location, files stored at /home/user/.s/ .<br>
 **optage.py** : (Optimize/Image) Python script to optimize images using jpegoptim and optipng.
+**cms-tools.sh** : Bash script to get info from Joomla and WordPress sites. 
