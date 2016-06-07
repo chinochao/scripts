@@ -1,4 +1,3 @@
-# DEV BRANCH
 # A Collection of my personal scripts.
 
 ## Synopsis
