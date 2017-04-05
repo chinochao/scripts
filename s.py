@@ -5,6 +5,8 @@ import configparser
 import getpass
 import time
 
+helo work
+
 # Global Variables
 user_home = os.getenv('HOME')
 s_folder = user_home + '/.s'

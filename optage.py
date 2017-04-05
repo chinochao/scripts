@@ -5,7 +5,7 @@
   This is a script to optimize images.
   Example : python3 optage.py
 '''
- 
+
 import os
 import shutil
  
