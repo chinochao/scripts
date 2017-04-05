@@ -10,3 +10,5 @@ A personal collection of scripts that I use and decided to shared with others wh
 **optage.py** : (Optimize/Image) Python script to optimize images using jpegoptim and optipng. <br>
 **cms-tools.sh** : Bash script to get info from Joomla and WordPress sites. <br>
 **nvidia_installer.py** : Download Latest or Beta version of NVidia Driver from command line. <br>
+
+This will be updated
