@@ -53,3 +53,4 @@ if __name__ == '__main__':
             print('\n[**]NVidia Drivers downloaded: %s' % (dl_loc))
     except KeyboardInterrupt:
         print('Exiting ...')
+
