@@ -1,9 +1,11 @@
-import urllib.request as req
+#!/usr/local/bin/python3
+
 import os
 import sys
 import re
 
-
+from urllib import requests as req
+from urllib import request 
 
 nvidia_web = req.urlopen('http://www.nvidia.com/object/unix.html')
 paragraphs = re.findall(r'<P>(.*?)Linux x86_64/AMD64/EM64T(.*?)</P>',str(nvidia_web.read()))
