@@ -7,7 +7,7 @@
 # Description: An updated fork of LSI.SH. MegaCLI script to configure and monitor LSI raid cards.
 
 # megalsi.sh
-VERSION="0.1.0"
+VERSION="0.1.1"
 UPDATE_URL="https://raw.githubusercontent.com/chinochao/scripts/master/megalsi.sh"
 
 # Full path to the MegaRaid CLI binary
@@ -41,8 +41,7 @@ ident(){
 update(){
     echo "################ UPDATING MEGALSI.SH ################"
     SCRIPT_PATH=$PWD/$0
-    echo "$PATH"
-    curl -K "$UPDATE_URL" -o $SCRIPT_PATH
+    curl -ks $UPDATE_URL -o $SCRIPT_PATH
 }
 
 case "$1" in
