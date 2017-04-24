@@ -41,7 +41,7 @@ ident(){
 update(){
     echo "################ UPDATING MEGALSI.SH ################"
     SCRIPT_PATH=$PWD/$0
-    curl -ks $UPDATE_URL -o $SCRIPT_PATH
+    curl -ks $UPDATE_URL -o $SCRIPT_PATH &
 }
 
 case "$1" in
