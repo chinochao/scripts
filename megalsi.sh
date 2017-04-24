@@ -2,12 +2,13 @@
 #
 # Roberto Chaud 
 # https://github.com/chinochao/scripts
-# Version : 0.1.0
 # 
 #
 # Description: An updated fork of LSI.SH. MegaCLI script to configure and monitor LSI raid cards.
 
 # megalsi.sh
+VERSION="0.1.0"
+UPDATE_URL="https://raw.githubusercontent.com/chinochao/scripts/master/megalsi.sh"
 
 # Full path to the MegaRaid CLI binary
 MegaCli="/opt/MegaRAID/MegaCli/MegaCli64"
@@ -30,18 +31,18 @@ drives() {
     $MegaCli -PDlist -aALL -NoLog | egrep 'Slot|state' | awk '/Slot/{if (x)print x;x="";}{x=(!x)?$0:x" -"$0;}END{print x;}' | sed 's/Firmware state://g'
 }
 
-ident(ID){
+ident(){
     $MegaCli  -PdLocate -start -physdrv[$ENCLOSURE:$2] -a0 -NoLog
     logger "`hostname` - identifying enclosure $ENCLOSURE, drive $ID "
     read -p "Press [Enter] key to turn off light..."
     $MegaCli  -PdLocate -stop -physdrv[$ENCLOSURE:$2] -a0 -NoLog
 }
 
-update()){
+update(){
     echo "################ UPDATING MEGALSI.SH ################"
-    logger "`hostname` - identifying enclosure $ENCLOSURE, drive $ID "
-    read -p "Press [Enter] key to turn off light..."
-    $MegaCli  -PdLocate -stop -physdrv[$ENCLOSURE:$2] -a0 -NoLog
+    SCRIPT_PATH=$PWD/$0
+    echo "$PATH"
+    curl -K "$UPDATE_URL" -o $SCRIPT_PATH
 }
 
 case "$1" in
@@ -61,10 +62,7 @@ case "$1" in
             start
             ;;
         update)
-            if test "x`pidof anacron`" != x; then
-                stop
-                start
-            fi
+            update
             ;;
          
         *)
@@ -85,6 +83,7 @@ case "$1" in
             echo "allinfo       = Print out all settings and information about the card"
             echo "settime       = Set the raid card's time to the current system time"
             echo "setdefaults   = Set preferred default settings for new raid setup"
+            echo "update        = Update MegaLSI.sh to the latest version"
             echo ""
             exit 1
  
