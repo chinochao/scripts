@@ -12,5 +12,6 @@ jobs:
         uses: actions/checkout@master
         with:
           repository: iptv-org/epg
+          path: ./epg
           
-      - run: ls -lash
+      - run: ls -lash && ls -lash ./epg
