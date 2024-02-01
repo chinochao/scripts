@@ -12,6 +12,5 @@ jobs:
         uses: actions/checkout@master
         with:
           repository: iptv-org/epg
-          token: ${{ secrets.my_pat }}
-
+          
       - run: ls -lash
