@@ -15,3 +15,9 @@ jobs:
           path: ./epg
           
       - run: ls -lash && ls -lash ./epg
+
+      - name: install deps and build
+        run: |
+          cd ./epg
+          npm install
+          npm run grab -- --channels=../iptv/custom.channels.xml --output=../iptv/guide.xml --gzip
