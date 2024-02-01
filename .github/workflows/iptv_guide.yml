@@ -14,7 +14,11 @@ jobs:
           repository: iptv-org/epg
           path: ./epg
           
-      - run: ls -lash && ls -lash ./epg && env
+      - run: |
+          ls -lash
+          ls -lash ./epg
+          env
+          curl -Iv tvtv.us
 
       - name: install deps and build
         run: |
