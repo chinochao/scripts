@@ -5,4 +5,5 @@
   <channel site="gatotv.com" lang="es" xmltv_id="AmericaTeVe.pr" site_id="america_teve">América TeVé</channel>
   <channel site="tvtv.us" lang="en" xmltv_id="UniMasEast.us" site_id="29058">UniMás Este</channel>
   <channel site="tvtv.us" lang="en" xmltv_id="EstrellaTV.us" site_id="65064">Estrella TV</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="GalavisionEast.us" site_id="10222">Galavisión Este</channel>
 </channels>

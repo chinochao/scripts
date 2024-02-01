@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20240201">
 <channel id="AmericaTeVe.pr"><display-name>America TeVe</display-name><icon src="https://i.imgur.com/K9o3mLP.png"/><url>https://gatotv.com</url></channel>
 <channel id="EstrellaTV.us"><display-name>Estrella TV</display-name><icon src="https://i.imgur.com/IZxjnyp.png"/><url>https://tvtv.us</url></channel>
+<channel id="GalavisionEast.us"><display-name>Galavision East</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Galavision_Logo_2013.svg/512px-Galavision_Logo_2013.svg.png"/><url>https://tvtv.us</url></channel>
 <channel id="KXLNDT1.us"><display-name>KXLN-DT1</display-name><icon src="https://i.imgur.com/98NIM9S.png"/><url>https://tvtv.us</url></channel>
 <channel id="UniMasEast.us"><display-name>UniMas East</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Logo_UniM%C3%A1s_2021.svg/512px-Logo_UniM%C3%A1s_2021.svg.png"/><url>https://tvtv.us</url></channel>
 <channel id="UnivisionEast.us"><display-name>Univision East</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/512px-Logo_Univision_2019.svg.png"/><url>https://tvtv.us</url></channel>
@@ -154,6 +155,68 @@
 <programme start="20240202220000 +0000" stop="20240202223000 +0000" channel="EstrellaTV.us"><title lang="en">24 horas</title></programme>
 <programme start="20240202223000 +0000" stop="20240202230000 +0000" channel="EstrellaTV.us"><title lang="en">Noticiero Estrella TV</title></programme>
 <programme start="20240202230000 +0000" stop="20240203000000 +0000" channel="EstrellaTV.us"><title lang="en">Ventaneando</title></programme>
+<programme start="20240201000000 +0000" stop="20240201010000 +0000" channel="GalavisionEast.us"><title lang="en">¿Es neta, Eva?</title></programme>
+<programme start="20240201010000 +0000" stop="20240201020000 +0000" channel="GalavisionEast.us"><title lang="en">Una familia de diez</title></programme>
+<programme start="20240201020000 +0000" stop="20240201030000 +0000" channel="GalavisionEast.us"><title lang="en">Nosotros los guapos</title></programme>
+<programme start="20240201030000 +0000" stop="20240201040000 +0000" channel="GalavisionEast.us"><title lang="en">Vecinos</title></programme>
+<programme start="20240201040000 +0000" stop="20240201043000 +0000" channel="GalavisionEast.us"><title lang="en">40 y 20</title><desc lang="en">Hollywood en casa</desc></programme>
+<programme start="20240201043000 +0000" stop="20240201050000 +0000" channel="GalavisionEast.us"><title lang="en">40 y 20</title><desc lang="en">El ave fénix</desc></programme>
+<programme start="20240201050000 +0000" stop="20240201053000 +0000" channel="GalavisionEast.us"><title lang="en">Renta congelada</title><desc lang="en">La planchada</desc></programme>
+<programme start="20240201053000 +0000" stop="20240201060000 +0000" channel="GalavisionEast.us"><title lang="en">Renta congelada</title><desc lang="en">El Gurú Mino</desc></programme>
+<programme start="20240201060000 +0000" stop="20240201063000 +0000" channel="GalavisionEast.us"><title lang="en">Alma de Ángel</title><desc lang="en">La bruja y el cazador de almas</desc></programme>
+<programme start="20240201063000 +0000" stop="20240201070000 +0000" channel="GalavisionEast.us"><title lang="en">Alma de Ángel</title><desc lang="en">El exorcismo</desc></programme>
+<programme start="20240201070000 +0000" stop="20240201073000 +0000" channel="GalavisionEast.us"><title lang="en">Simón dice</title><desc lang="en">La casa gana</desc></programme>
+<programme start="20240201073000 +0000" stop="20240201080000 +0000" channel="GalavisionEast.us"><title lang="en">Simón dice</title><desc lang="en">Todas mías</desc></programme>
+<programme start="20240201080000 +0000" stop="20240201083000 +0000" channel="GalavisionEast.us"><title lang="en">Durmiendo con mi Jefe</title><desc lang="en">La fiesta</desc></programme>
+<programme start="20240201083000 +0000" stop="20240201090000 +0000" channel="GalavisionEast.us"><title lang="en">Durmiendo con mi Jefe</title><desc lang="en">Feliz cumpleaños</desc></programme>
+<programme start="20240201090000 +0000" stop="20240201093000 +0000" channel="GalavisionEast.us"><title lang="en">Hylastra Gold - Restaura y reconstruye la piel desde adentro</title></programme>
+<programme start="20240201093000 +0000" stop="20240201100000 +0000" channel="GalavisionEast.us"><title lang="en">Programa pagado</title></programme>
+<programme start="20240201100000 +0000" stop="20240201103000 +0000" channel="GalavisionEast.us"><title lang="en">Programa pagado</title></programme>
+<programme start="20240201103000 +0000" stop="20240201110000 +0000" channel="GalavisionEast.us"><title lang="en">Mejore la salud del corazón y la función cerebral con Krill</title></programme>
+<programme start="20240201110000 +0000" stop="20240201120000 +0000" channel="GalavisionEast.us"><title lang="en">Que madre tan padre</title></programme>
+<programme start="20240201120000 +0000" stop="20240201130000 +0000" channel="GalavisionEast.us"><title lang="en">La hora pico</title></programme>
+<programme start="20240201130000 +0000" stop="20240201140000 +0000" channel="GalavisionEast.us"><title lang="en">XH Derbez</title></programme>
+<programme start="20240201140000 +0000" stop="20240201150000 +0000" channel="GalavisionEast.us"><title lang="en">Derbez en Cuando</title><desc lang="en">Cancún 5-0</desc></programme>
+<programme start="20240201150000 +0000" stop="20240201160000 +0000" channel="GalavisionEast.us"><title lang="en">Al derecho y al Derbez</title></programme>
+<programme start="20240201160000 +0000" stop="20240201170000 +0000" channel="GalavisionEast.us"><title lang="en">La familia P. Luche</title></programme>
+<programme start="20240201170000 +0000" stop="20240201180000 +0000" channel="GalavisionEast.us"><title lang="en">Una familia de diez</title></programme>
+<programme start="20240201180000 +0000" stop="20240201190000 +0000" channel="GalavisionEast.us"><title lang="en">Nosotros los guapos</title></programme>
+<programme start="20240201190000 +0000" stop="20240201200000 +0000" channel="GalavisionEast.us"><title lang="en">El príncipe del barrio</title></programme>
+<programme start="20240201200000 +0000" stop="20240201210000 +0000" channel="GalavisionEast.us"><title lang="en">Está libre</title></programme>
+<programme start="20240201210000 +0000" stop="20240201220000 +0000" channel="GalavisionEast.us"><title lang="en">¿Tú crees?</title></programme>
+<programme start="20240201220000 +0000" stop="20240201230000 +0000" channel="GalavisionEast.us"><title lang="en">Tal para cual</title></programme>
+<programme start="20240201230000 +0000" stop="20240202000000 +0000" channel="GalavisionEast.us"><title lang="en">Bola de locos</title></programme>
+<programme start="20240202000000 +0000" stop="20240202010000 +0000" channel="GalavisionEast.us"><title lang="en">¿Es neta, Eva?</title></programme>
+<programme start="20240202010000 +0000" stop="20240202020000 +0000" channel="GalavisionEast.us"><title lang="en">Una familia de diez</title></programme>
+<programme start="20240202020000 +0000" stop="20240202030000 +0000" channel="GalavisionEast.us"><title lang="en">Nosotros los guapos</title></programme>
+<programme start="20240202030000 +0000" stop="20240202040000 +0000" channel="GalavisionEast.us"><title lang="en">Vecinos</title></programme>
+<programme start="20240202040000 +0000" stop="20240202043000 +0000" channel="GalavisionEast.us"><title lang="en">40 y 20</title><desc lang="en">Modelo vintage</desc></programme>
+<programme start="20240202043000 +0000" stop="20240202050000 +0000" channel="GalavisionEast.us"><title lang="en">40 y 20</title><desc lang="en">Hoy por mi, mañana por ti</desc></programme>
+<programme start="20240202050000 +0000" stop="20240202053000 +0000" channel="GalavisionEast.us"><title lang="en">Renta congelada</title><desc lang="en">Nico-N chochos te queremos</desc></programme>
+<programme start="20240202053000 +0000" stop="20240202060000 +0000" channel="GalavisionEast.us"><title lang="en">Renta congelada</title><desc lang="en">Las chiqui mamis</desc></programme>
+<programme start="20240202060000 +0000" stop="20240202063000 +0000" channel="GalavisionEast.us"><title lang="en">Alma de Ángel</title><desc lang="en">Paco y la cebolla</desc></programme>
+<programme start="20240202063000 +0000" stop="20240202070000 +0000" channel="GalavisionEast.us"><title lang="en">Alma de Ángel</title><desc lang="en">Entre el cielo y el infierno</desc></programme>
+<programme start="20240202070000 +0000" stop="20240202073000 +0000" channel="GalavisionEast.us"><title lang="en">Simón dice</title><desc lang="en">Saca al gato</desc></programme>
+<programme start="20240202073000 +0000" stop="20240202080000 +0000" channel="GalavisionEast.us"><title lang="en">Simón dice</title><desc lang="en">Aplícale la dormilona</desc></programme>
+<programme start="20240202080000 +0000" stop="20240202083000 +0000" channel="GalavisionEast.us"><title lang="en">Durmiendo con mi Jefe</title><desc lang="en">Feliz cumpleaños</desc></programme>
+<programme start="20240202083000 +0000" stop="20240202090000 +0000" channel="GalavisionEast.us"><title lang="en">Durmiendo con mi Jefe</title><desc lang="en">El hijo pródigo</desc></programme>
+<programme start="20240202090000 +0000" stop="20240202093000 +0000" channel="GalavisionEast.us"><title lang="en">Hylastra Gold - Restaura y reconstruye la piel desde adentro</title></programme>
+<programme start="20240202093000 +0000" stop="20240202100000 +0000" channel="GalavisionEast.us"><title lang="en">Programa pagado</title></programme>
+<programme start="20240202100000 +0000" stop="20240202103000 +0000" channel="GalavisionEast.us"><title lang="en">Programa pagado</title></programme>
+<programme start="20240202103000 +0000" stop="20240202110000 +0000" channel="GalavisionEast.us"><title lang="en">Mejore la salud del corazón y la función cerebral con Krill</title></programme>
+<programme start="20240202110000 +0000" stop="20240202120000 +0000" channel="GalavisionEast.us"><title lang="en">Que madre tan padre</title></programme>
+<programme start="20240202120000 +0000" stop="20240202130000 +0000" channel="GalavisionEast.us"><title lang="en">La hora pico</title></programme>
+<programme start="20240202130000 +0000" stop="20240202140000 +0000" channel="GalavisionEast.us"><title lang="en">XH Derbez</title></programme>
+<programme start="20240202140000 +0000" stop="20240202150000 +0000" channel="GalavisionEast.us"><title lang="en">Derbez en Cuando</title><desc lang="en">La casa ideal</desc></programme>
+<programme start="20240202150000 +0000" stop="20240202160000 +0000" channel="GalavisionEast.us"><title lang="en">Al derecho y al Derbez</title></programme>
+<programme start="20240202160000 +0000" stop="20240202170000 +0000" channel="GalavisionEast.us"><title lang="en">La familia P. Luche</title></programme>
+<programme start="20240202170000 +0000" stop="20240202180000 +0000" channel="GalavisionEast.us"><title lang="en">Una familia de diez</title></programme>
+<programme start="20240202180000 +0000" stop="20240202190000 +0000" channel="GalavisionEast.us"><title lang="en">Nosotros los guapos</title></programme>
+<programme start="20240202190000 +0000" stop="20240202200000 +0000" channel="GalavisionEast.us"><title lang="en">El príncipe del barrio</title></programme>
+<programme start="20240202200000 +0000" stop="20240202210000 +0000" channel="GalavisionEast.us"><title lang="en">Está libre</title></programme>
+<programme start="20240202210000 +0000" stop="20240202220000 +0000" channel="GalavisionEast.us"><title lang="en">¿Tú crees?</title></programme>
+<programme start="20240202220000 +0000" stop="20240202230000 +0000" channel="GalavisionEast.us"><title lang="en">Tal para cual</title></programme>
+<programme start="20240202230000 +0000" stop="20240203000000 +0000" channel="GalavisionEast.us"><title lang="en">Bola de locos</title></programme>
 <programme start="20240201000000 +0000" stop="20240201010000 +0000" channel="KXLNDT1.us"><title lang="en">Vencer la culpa</title><desc lang="en">Dulce está lista para hablar</desc></programme>
 <programme start="20240201010000 +0000" stop="20240201020000 +0000" channel="KXLNDT1.us"><title lang="en">Tu vida es mi vida</title></programme>
 <programme start="20240201020000 +0000" stop="20240201030000 +0000" channel="KXLNDT1.us"><title lang="en">Mujer</title><desc lang="en">Las dos cárceles</desc></programme>
