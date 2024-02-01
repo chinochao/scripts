@@ -1,0 +1,17 @@
+name: IPTV EPG Guide
+on: 
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Check out epg builder
+        uses: actions/checkout@master
+        with:
+          repository: iptv-org/epg
+          token: ${{ secrets.my_pat }}
+
+      - run: ls -lash
