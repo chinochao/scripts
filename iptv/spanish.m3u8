@@ -6,3 +6,7 @@ https://unidfp-nlds155.global.ssl.fastly.net/nlds/univisionnow/univision_east2/a
 https://unidfp-nlds145.global.ssl.fastly.net/nlds/univisionnow/univision_hou2/as/live/univision_hou2_hd_pc.m3u8?t1=
 #EXTINF:-1 tvg-id="AmericaTeVe.pr" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTunU8KmCNLGT2383GDJswWsZBgbLjwmyTgF-AHLfrwRKREHxLeLX_8hph121GGYIe6wV8&usqp=CAU" group-title="US Spanish", América TeVé
 https://dbrb49pjoymg4.cloudfront.net/10001/99951140/hls/master.m3u8?ads.xumo_channelId=99951140
+#EXTINF:-1 tvg-id="UniMasEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Logo_UniM%C3%A1s_2021.svg/512px-Logo_UniM%C3%A1s_2021.svg.png" group-title="US Spanish", UniMás East
+https://unidfp-nlds164.global.ssl.fastly.net/nlds/univisionnow/unimas_east2/as/live/unimas_east2_hd_pc.m3u8?t1=
+#EXTINF:-1 tvg-id="EstrellaTV.us" tvg-logo="https://i.imgur.com/IZxjnyp.png" group-title="US Spanish", Estrella TV
+https://estrellatv-oando.amagi.tv/playlist.m3u8
