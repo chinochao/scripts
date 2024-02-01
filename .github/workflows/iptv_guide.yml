@@ -19,6 +19,7 @@ jobs:
           ls -lash ./epg
           env
           curl -Iv tvtv.us
+          node -v
 
       - name: install deps and build
         run: |
