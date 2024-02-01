@@ -14,7 +14,7 @@ jobs:
           repository: iptv-org/epg
           path: ./epg
           
-      - run: ls -lash && ls -lash ./epg
+      - run: ls -lash && ls -lash ./epg && env
 
       - name: install deps and build
         run: |
