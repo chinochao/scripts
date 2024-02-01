@@ -2,3 +2,7 @@
 
 #EXTINF:-1 tvg-id="UnivisionEast.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/512px-Logo_Univision_2019.svg.png" group-title="US Spanish",Univision East
 https://unidfp-nlds155.global.ssl.fastly.net/nlds/univisionnow/univision_east2/as/live/univision_east2_hd_pc.m3u8?t1=
+#EXTINF:-1 tvg-id="KXLNDT1.us" tvg-logo="https://i.imgur.com/98NIM9S.png" group-title="US Spanish", Univision Houston
+https://unidfp-nlds145.global.ssl.fastly.net/nlds/univisionnow/univision_hou2/as/live/univision_hou2_hd_pc.m3u8?t1=
+#EXTINF:-1 tvg-id="AmericaTeVe.pr" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTunU8KmCNLGT2383GDJswWsZBgbLjwmyTgF-AHLfrwRKREHxLeLX_8hph121GGYIe6wV8&usqp=CAU" group-title="US Spanish", América TeVé
+https://dbrb49pjoymg4.cloudfront.net/10001/99951140/hls/master.m3u8?ads.xumo_channelId=99951140

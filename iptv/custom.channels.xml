@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
   <channel site="tvtv.us" lang="en" xmltv_id="UnivisionEast.us" site_id="68049">Univision East (National Feed)</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="KXLNDT1.us" site_id="35653">Univision (KXLN-DT1) Houston, TX</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="AmericaTeVe.pr" site_id="america_teve">América TeVé</channel>
 </channels>
